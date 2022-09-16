@@ -23,10 +23,10 @@ export class RTCController {
         this.callerOrCallee = callType
 
         // ICE Google Config
-        // this.peerConnection = new RTCPeerConnection(this.ICE_GOOGLE_CONF)
+        this.peerConnection = new RTCPeerConnection(this.ICE_GOOGLE_CONF)
 
         // ICE Twilio Config
-        this.peerConnection = new RTCPeerConnection(this.ICE_TWILIO_CONF)
+        // this.peerConnection = new RTCPeerConnection(this.ICE_TWILIO_CONF)
 
         this.initDataChannel()
         this.#registerPeerConnectionListeners()

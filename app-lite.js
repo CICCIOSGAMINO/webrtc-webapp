@@ -592,7 +592,7 @@ class AppLite extends LitElement {
         </div>
 
         <div id="callee-box" class="box" data-from="callee">
-            <h2 class="box-title-bottom">Callee Objects</h2>
+            <h2 class="box-title-bottom">Callee RTCSessionDescription</h2>
         </div>
 
         <div id="callee-ice-box" class="box" data-from="callee">

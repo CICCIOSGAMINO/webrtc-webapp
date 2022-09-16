@@ -1,7 +1,7 @@
 {
-  "name": "webrtc-ice",
+  "name": "webrtc-webapp",
   "version": "0.1.0",
-  "description": "Test the WebRTC ICE features",
+  "description": "WebApp to test WebRTC - RTCPeerConnection",
   "main": "dist/lite.es.js",
   "exports": "./dist/lite.es.js",
   "files": [
