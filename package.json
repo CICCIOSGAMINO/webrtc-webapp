@@ -1,0 +1,23 @@
+{
+  "name": "webrtc-ice",
+  "version": "0.1.0",
+  "description": "Test the WebRTC ICE features",
+  "main": "dist/lite.es.js",
+  "exports": "./dist/lite.es.js",
+  "files": [
+    "dist"
+  ],
+  "author": "@cicciosgamino <marco.canali@gmail.com>",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --port 3000 --host"
+  },
+  "private": true,
+  "dependencies": {
+    "lit": "*"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  }
+}
